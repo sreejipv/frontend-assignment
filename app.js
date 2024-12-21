@@ -26,7 +26,7 @@ const fetchData = async () => {
 };
 
 (async () => {
-  document.getElementById("loading").style.display = "block";
+  document.getElementById("loading").style.display = "flex";
   document.getElementById("main").style.display = "none";
   await fetchData();
   renderingData = fundingData.slice(0, 5);
