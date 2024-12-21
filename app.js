@@ -18,12 +18,16 @@ const fetchData = async () => {
       throw new Error(`Error`);
     }
     fundingData = await response.json();
+    document.getElementById("loading").style.display = "none";
+    document.getElementById("main").style.display = "flex";
   } catch (error) {
     console.log(error);
   }
 };
 
 (async () => {
+  document.getElementById("loading").style.display = "block";
+  document.getElementById("main").style.display = "none";
   await fetchData();
   renderingData = fundingData.slice(0, 5);
   setPagination();

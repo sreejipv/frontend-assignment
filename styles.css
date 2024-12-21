@@ -8,6 +8,12 @@ main {
   justify-content: center;
   height: 90vh;
 }
+.loading {
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
 .active {
   border: 1px solid #36c;
   background-color: #36c;
