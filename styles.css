@@ -1,0 +1,75 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 90vh;
+}
+.active {
+  border: 1px solid #36c;
+  background-color: #36c;
+  color: #fff;
+  border-radius: 100px;
+  width: 25px;
+  height: 25px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+thead {
+  background-color: #cc3933;
+}
+th span {
+  color: #fff;
+}
+table,
+td,
+th {
+  border: 1px solid;
+  padding: 10px 10px;
+  text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.tabledata {
+  width: 800px;
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+#pagination ul {
+  padding: 0;
+  display: flex;
+  list-style: none;
+  gap: 15px;
+  justify-content: center;
+}
+
+#pagination ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.paginationContainer {
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginationContainer span {
+  border-radius: 40px;
+  padding: 7px 10px;
+  font-weight: 500;
+  cursor: pointer;
+  color: #36c;
+}

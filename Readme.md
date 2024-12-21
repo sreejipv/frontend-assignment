@@ -47,4 +47,4 @@ Use the web API (link : https://raw.githubusercontent.com/saaslabsco/frontend-as
 ## Note
 
 1. Result on platforms like codesandbox, replit are not accepted. 
-1. Private unaccessible links will lead to rejection.
+1. Private unaccessible links will lead to rejection.# frontend-assignment

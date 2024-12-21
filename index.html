@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend assignment</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main>
+        <div class="tabledata">
+            <table>
+                <thead>
+                    <th>
+                        <span>S.No.</span>
+                    </th>
+                    <th>
+                        <span>Percentage funded</span>
+                    </th>
+                    <th>
+                        <span>Amount pledged</span>
+                    </th>
+                </thead>
+                <tbody id="tablerows">
+
+                </tbody>
+
+
+            </table>
+        </div>
+        <div class="paginationContainer">
+            <span onclick="handlePrev()" id="prevButton">Previous</span>
+            <div id="pagination"></div>
+            <span onclick="handleNext()" id="nextButton">Next</span>
+        </div>
+
+    </main>
+
+    <footer>
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
